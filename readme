@@ -32,3 +32,6 @@ nslookup
 
 Burada, yeni DNS ayarlarının etkin olup olmadığını görebilirsin.
 ```
+```bash
+just install
+```
