@@ -6,14 +6,14 @@ Windows Komut İstemi (CMD) ile DNS adresini değiştirmek için şu adımları 
 ## 2. Ağ Bağdaştırıcını Öğrenmek İçin Komutu Çalıştır
 İlk olarak, bilgisayarındaki ağ bağdaştırıcılarının adını öğrenmek için şu komutu yaz:
 
-```bash netsh interface ipv4 show config```
+# ```bash netsh interface ipv4 show config```
 
 Bu komut, bilgisayarındaki tüm ağ bağdaştırıcılarını gösterecek. "Bağdaştırıcı" adını belirle (örneğin, "Ethernet" veya "Wi-Fi").
 
 ## 3. DNS Sunucusunu Değiştirmek İçin Komutları Kullan
 Aşağıdaki komutu, senin kullandığın bağdaştırıcı adına göre düzenleyip çalıştır. Örneğin, "Wi-Fi" için:
 
-```bash netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8```
+# ```bash netsh interface ipv4 set dns name="Wi-Fi" static 8.8.8.8```
 
 Alternatif DNS sunucusu olarak Google'ın ikinci DNS adresini eklemek için şu komutu kullan:
 
