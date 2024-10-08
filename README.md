@@ -36,5 +36,6 @@ nslookup
 ```
 
 Burada, yeni DNS ayarlarının etkin olup olmadığını görebilirsin.
-```
+![image](https://github.com/user-attachments/assets/90bf7083-6164-42e9-bc04-2deb473533b8)
+
 
